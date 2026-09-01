@@ -1,0 +1,256 @@
+# Java Basics
+
+This file contains my Java fundamentals practice, covering basic syntax, variables, data types, type casting, operators, conditional statements, user input, and garbage collection.
+
+## 📚 Topics Covered
+
+### 1. Basic Output
+
+* `System.out.println()`
+* `System.out.print()`
+* Printing numbers and expressions
+* Comments using `//`
+
+Example:
+
+```java
+System.out.println("Hello, World!");
+System.out.print("Hello");
+System.out.println(4 + 3);
+```
+
+---
+
+### 2. Variables
+
+Learned how to:
+
+* Declare variables
+* Assign values
+* Print variables
+* Understand case-sensitive variable names
+* Follow variable naming conventions
+
+Example:
+
+```java
+int age;
+age = 187;
+
+int Age = 68;
+
+System.out.println(age);
+System.out.println(Age);
+```
+
+---
+
+### 3. Java Data Types
+
+Covered primitive data types:
+
+* `byte`
+* `short`
+* `int`
+* `long`
+* `float`
+* `double`
+* `char`
+
+Examples are included in the Java file.
+
+---
+
+### 4. Type Casting
+
+Practice with explicit type casting.
+
+Example:
+
+```java
+long value = 1234467;
+int value2 = (int)value;
+```
+
+Also covered conversion from `char` to `int`:
+
+```java
+char name = 'a';
+int num = (int)name;
+```
+
+---
+
+### 5. Operators
+
+Covered the following operators:
+
+#### Arithmetic
+
+```text
++    Addition
+-    Subtraction
+*    Multiplication
+/    Division
+%    Remainder / Modulus
+```
+
+#### Relational
+
+```text
+==   Equal
+!=   Not equal
+>    Greater than
+<    Less than
+>=   Greater than or equal
+<=   Less than or equal
+```
+
+#### Logical
+
+```text
+&&   AND
+||   OR
+!    NOT
+```
+
+#### Assignment
+
+```text
+=    Assignment
++=   Add and assign
+-=   Subtract and assign
+*=   Multiply and assign
+/=   Divide and assign
+%=   Modulus and assign
+```
+
+#### Unary
+
+```text
++
+-
+++
+--
+!
+```
+
+---
+
+### 6. Conditional Statements
+
+Basic `if` conditions are practiced using relational operators.
+
+Example:
+
+```java
+int a = 9;
+int b = 10;
+
+if (a < b) {
+    System.out.println("a is smaller");
+}
+```
+
+The file also contains examples using multiple `if` statements.
+
+---
+
+### 7. Increment & Decrement
+
+Practice with:
+
+```java
+++a;
+a++;
+
+--a;
+a--;
+```
+
+The file demonstrates the difference between changing a value before and after using it.
+
+---
+
+### 8. User Input with Scanner
+
+Java's `Scanner` class is used to take input from the keyboard.
+
+```java
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter num1");
+int firstnum = sc.nextInt();
+
+System.out.println("Enter num2");
+int secNum = sc.nextInt();
+
+System.out.println(firstnum + secNum);
+```
+
+### Common Scanner Methods
+
+| Method             | Input            |
+| ------------------ | ---------------- |
+| `sc.next()`        | One word         |
+| `sc.nextLine()`    | Complete line    |
+| `sc.nextInt()`     | Integer          |
+| `sc.nextDouble()`  | Decimal number   |
+| `sc.nextLong()`    | Long integer     |
+| `sc.nextFloat()`   | Float            |
+| `sc.nextBoolean()` | `true` / `false` |
+
+---
+
+### 9. Garbage Collection
+
+The file also introduces Java garbage collection and the use of:
+
+```java
+System.gc();
+```
+
+This is noted as a way to request garbage collection when an object is eligible for collection.
+
+---
+
+## 📁 File
+
+```text
+Main.java
+```
+
+## 🎯 Learning Objective
+
+Build a strong foundation in Java syntax and fundamental programming concepts before moving on to:
+
+* Conditional statements
+* Loops
+* Methods
+* Arrays
+* Strings
+* OOP
+* Collections
+* Recursion
+* DSA
+
+## 🚀 Progress
+
+* [x] Basic Java syntax
+* [x] Variables
+* [x] Data types
+* [x] Type casting
+* [x] Arithmetic operators
+* [x] Relational operators
+* [x] Logical operators
+* [x] Assignment operators
+* [x] Unary operators
+* [x] Basic `if` statements
+* [x] Scanner input
+* [x] Introduction to garbage collection
+* [ ] Loops
+* [ ] Methods
+* [ ] Arrays
+* [ ] Strings
+* [ ] OOP
+* [ ] DSA
