@@ -346,8 +346,8 @@ The main problem-solving section of the repository.
 # 📈 Progress
 
 * [x] Java Basics
-* [ ] Conditional Statements
-* [ ] Loops
+* [x ] Conditional Statements
+* [ x] Loops
 * [ ] Methods
 * [ ] Arrays
 * [ ] Strings
