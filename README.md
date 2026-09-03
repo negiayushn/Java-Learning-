@@ -417,5 +417,6 @@ The repository will be updated as new concepts, implementations, and problems ar
 | ------- |
 | [0007-reverse-integer](https://github.com/negiayushn/Java-Learning-/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/negiayushn/Java-Learning-/tree/master/0009-palindrome-number) |
+| [0507-perfect-number](https://github.com/negiayushn/Java-Learning-/tree/master/0507-perfect-number) |
 | [2520-count-the-digits-that-divide-a-number](https://github.com/negiayushn/Java-Learning-/tree/master/2520-count-the-digits-that-divide-a-number) |
 <!---LeetCode Topics End-->
