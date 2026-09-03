@@ -409,3 +409,11 @@ The repository will be updated as new concepts, implementations, and problems ar
 **Currently learning:** Java Fundamentals
 
 **Next:** Conditional Statements → Loops → Methods → Arrays → Strings → OOP → Collections → Recursion → DSA
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Math
+|  |
+| ------- |
+| [2520-count-the-digits-that-divide-a-number](https://github.com/negiayushn/Java-Learning-/tree/master/2520-count-the-digits-that-divide-a-number) |
+<!---LeetCode Topics End-->
